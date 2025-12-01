@@ -15,6 +15,8 @@ import Privacy from "../components/Privacy";
 import Quiz from "../components/Quiz";
 import QuizResults from "../components/QuizResults";
 import AllToys from "../pages/AllToys";
+import AboutUs from "../components/AboutUs";
+import ContactUs from "../components/ContactUs";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +47,14 @@ export const router = createBrowserRouter([
         loader: () => fetch("/toys.json"),
         hydrateFallbackElement: <Loading></Loading>,
         element: <About></About>,
+      },
+      {
+        path: "/aboutUs",
+        element: <AboutUs></AboutUs>
+      },
+      {
+        path: "/contactUs",
+        element: <ContactUs></ContactUs>
       },
       {
         path: "/login",

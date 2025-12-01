@@ -6,7 +6,7 @@ const About = () => {
   const data = useLoaderData();
 
   return (
-    <div className="py-6 px-2 md:px-10">
+    <div className="py-10 px-2 md:px-10">
       <Helmet>
         <meta charSet="utf-8" />
         <title>About-ToyVille</title>
@@ -16,8 +16,15 @@ const About = () => {
       <h1 className="text-center font-bold text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-rose-400 mb-2">
         Seller Information
       </h1>
-      <p className="text-center text-gray-400 mb-4 md:mb-6 text-sm md:text-base">
-        All seller information of all toys is given here
+      <p className="text-center text-gray-500 mb-6 text-sm md:text-sm leading-snug max-w-3xl mx-auto">
+        Welcome to ToyVille's seller directory! Here, you can find all the
+        important details about the sellers of our curated collection of toys.
+        Each card contains the toy name, the seller's name, and their contact
+        email to help you get in touch or learn more about their offerings.
+        Explore the variety of toys, understand their sources, and make informed
+        choices for your little ones. Our goal is to provide transparency and
+        ease so you can shop confidently and enjoy a delightful toy shopping
+        experience!
       </p>
 
       {/* Desktop Table */}
@@ -43,7 +50,9 @@ const About = () => {
                 </td>
                 <td className="py-3 px-4 font-semibold">{toy.toyName}</td>
                 <td className="py-3 px-4">{toy.sellerName}</td>
-                <td className="py-3 px-4 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-rose-600">{toy.sellerEmail}</td>
+                <td className="py-3 px-4 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-rose-600">
+                  {toy.sellerEmail}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -65,7 +74,7 @@ const About = () => {
                 className="w-20 h-20 object-cover rounded"
               />
               <span className="font-semibold text-center sm:text-left">
-                 {toy.toyName}
+                {toy.toyName}
               </span>
             </div>
 
