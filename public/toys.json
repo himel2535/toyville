@@ -1,0 +1,122 @@
+[
+  {
+    "toyId": 1,
+    "toyName": "Lego Classic Bricks",
+    "sellerName": "Toys R Us Local",
+    "sellerEmail": "contact@toysruslocal.com",
+    "price": 49.99,
+    "rating": 4.7,
+    "availableQuantity": 75,
+    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
+    "pictureURL": "https://i.ibb.co.com/sv2CqybX/1.webp",
+    "subCategory": "Building Blocks"
+  },
+  {
+    "toyId": 2,
+    "toyName": "Remote Control Car",
+    "sellerName": "Speedy Toys",
+    "sellerEmail": "support@speedytoys.com",
+    "price": 35.5,
+    "rating": 4.6,
+    "availableQuantity": 45,
+    "description": "A rechargeable remote control car with LED headlights and smooth steering. Perfect for both indoor and outdoor fun.",
+    "pictureURL": "https://i.ibb.co.com/SDTxMFdv/002.jpg",
+    "subCategory": "Vehicles"
+  },
+  {
+    "toyId": 3,
+    "toyName": "Barbie Dream Doll",
+    "sellerName": "DollHouse Store",
+    "sellerEmail": "info@dollhouse.com",
+    "price": 29.99,
+    "rating": 4.8,
+    "availableQuantity": 60,
+    "description": "A stylish Barbie doll dressed in a sparkling outfit, encouraging imaginative play and creativity among kids.",
+    "pictureURL": "https://i.ibb.co.com/jvLYzXY0/Barbie-Dream-Besties-Collection-Renee.jpg",
+    "subCategory": "Dolls"
+  },
+  {
+    "toyId": 4,
+    "toyName": "Wooden Train Set",
+    "sellerName": "Happy Kids Toys",
+    "sellerEmail": "hello@happykids.com",
+    "price": 42.0,
+    "rating": 4.5,
+    "availableQuantity": 50,
+    "description": "Classic wooden train set with colorful tracks and magnetic wagons. Helps develop hand-eye coordination and motor skills.",
+    "pictureURL": "https://i.ibb.co.com/B5JsdQ5V/004.jpg",
+    "subCategory": "Educational Toys"
+  },
+  {
+    "toyId": 5,
+    "toyName": "Stuffed Teddy Bear",
+    "sellerName": "SoftyWorld",
+    "sellerEmail": "contact@softyworld.com",
+    "price": 19.99,
+    "rating": 4.9,
+    "availableQuantity": 100,
+    "description": "A super-soft plush teddy bear that's perfect for cuddles and comfort. Safe and washable fabric used.",
+    "pictureURL": "https://i.ibb.co.com/JwK7wLg6/teddybear.jpg",
+    "subCategory": "Soft Toys"
+  },
+  {
+    "toyId": 6,
+    "toyName": "Musical Keyboard Toy",
+    "sellerName": "Little Musicians",
+    "sellerEmail": "music@littlemusicians.com",
+    "price": 39.9,
+    "rating": 4.4,
+    "availableQuantity": 30,
+    "description": "Mini electric keyboard with colorful keys and fun sounds. Teaches rhythm and basic music notes to toddlers.",
+    "pictureURL": "https://i.ibb.co.com/rRbbJHbM/musical.jpg",
+    "subCategory": "Musical Toys"
+  },
+  {
+    "toyId": 7,
+    "toyName": "Dinosaur Figure Set",
+    "sellerName": "Jurassic Fun",
+    "sellerEmail": "info@jurassicfun.com",
+    "price": 24.99,
+    "rating": 4.3,
+    "availableQuantity": 80,
+    "description": "Set of 6 realistic dinosaur figures made of non-toxic plastic. Perfect for dinosaur lovers and adventure play.",
+    "pictureURL": "https://i.ibb.co.com/Dgjqy9my/007.jpg",
+    "subCategory": "Action Figures"
+  },
+  {
+    "toyId": 8,
+    "toyName": "Rubik’s Cube 3x3",
+    "sellerName": "Brainy Toys",
+    "sellerEmail": "sales@brainytoys.com",
+    "price": 12.5,
+    "rating": 4.8,
+    "availableQuantity": 150,
+    "description": "The classic 3x3 Rubik’s Cube puzzle that enhances problem-solving and logical thinking in kids and adults.",
+    "pictureURL": "https://i.ibb.co.com/BV2mZnZf/008.webp",
+    "subCategory": "Puzzles"
+  },
+  {
+    "toyId": 9,
+    "toyName": "Play Kitchen Set",
+    "sellerName": "MiniChef",
+    "sellerEmail": "order@minichef.com",
+    "price": 54.99,
+    "rating": 4.6,
+    "availableQuantity": 25,
+    "description": "Mini kitchen playset with utensils, oven, and cooking accessories. Encourages role play and creativity.",
+    "pictureURL": "https://i.ibb.co.com/HTfLCx4s/009.jpg",
+    "subCategory": "Role Play Toys"
+  },
+  {
+    "toyId": 10,
+    "toyName": "Building Blocks Tower Set",
+    "sellerName": "Creative Minds",
+    "sellerEmail": "contact@creativeminds.com",
+    "price": 44.5,
+    "rating": 4.7,
+    "availableQuantity": 65,
+    "description": "Colorful interlocking building blocks to create towers, bridges, and more. Great for enhancing spatial intelligence.",
+    "pictureURL": "https://i.ibb.co.com/0pvkchw9/0010.jpg",
+    "subCategory": "Building Blocks"
+  }
+]
