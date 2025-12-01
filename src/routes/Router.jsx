@@ -12,6 +12,9 @@ import NotFound from "../pages/NotFound";
 import Loading from "../components/Loading";
 import Terms from "../components/Terms";
 import Privacy from "../components/Privacy";
+import Quiz from "../components/Quiz";
+import QuizResults from "../components/QuizResults";
+import AllToys from "../pages/AllToys";
 
 export const router = createBrowserRouter([
   {
@@ -28,22 +31,20 @@ export const router = createBrowserRouter([
         hydrateFallbackElement: <Loading></Loading>,
       },
       {
+        path: "/allToys",
+        Component: AllToys,
+        loader: () => fetch("/toys.json"),
+        hydrateFallbackElement: <Loading></Loading>,
+      },
+      {
         path: "/profile",
-        element: (
-          <PrivateRoute>
-            <Profile></Profile>
-          </PrivateRoute>
-        ),
+        element: <Profile></Profile>,
       },
       {
         path: "/about",
         loader: () => fetch("/toys.json"),
         hydrateFallbackElement: <Loading></Loading>,
-        element: (
-          <PrivateRoute>
-            <About></About>
-          </PrivateRoute>
-        ),
+        element: <About></About>,
       },
       {
         path: "/login",
@@ -59,11 +60,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/toyDetails/:toyId",
-        element: (
-          <PrivateRoute>
-            <ToyDetails></ToyDetails>
-          </PrivateRoute>
-        ),
+        element: <ToyDetails></ToyDetails>,
         loader: () => fetch("/toys.json"),
         hydrateFallbackElement: <Loading></Loading>,
       },
@@ -74,6 +71,14 @@ export const router = createBrowserRouter([
       {
         path: "/privacy",
         Component: Privacy,
+      },
+      {
+        path: "/quiz",
+        element: <Quiz />,
+      },
+      {
+        path: "/quiz-results",
+        element: <QuizResults />,
       },
     ],
   },

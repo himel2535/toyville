@@ -30,19 +30,27 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/profile"
+          to="/allToys"
           className={({ isActive }) => (isActive ? "active" : "")}
         >
-          Profile
+          All Toys
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
+          Seller
         </NavLink>
       </li>
       {user && (
         <li>
           <NavLink
-            to="/about"
+            to="/profile"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
-            About
+            Profile
           </NavLink>
         </li>
       )}

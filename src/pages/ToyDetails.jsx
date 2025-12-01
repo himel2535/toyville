@@ -23,7 +23,7 @@ const ToyDetails = () => {
         <title>ToyDetails</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-      <div className="grid grid-cols-1 md:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 my-10">
         <div className="cols-span-1 md:col-span-2">
           <ToyDetailsCard toy={toy}></ToyDetailsCard>
         </div>
