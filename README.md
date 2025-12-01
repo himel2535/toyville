@@ -1,6 +1,6 @@
 🧸 ToyVille
 
-ToyVille is a full-stack toy marketplace web application where users can explore, view details, and manage toy-related information securely using Firebase authentication.
+ToyVille is a full-stack toy marketplace web application where users can explore, view details,update profile, and manage toy-related information securely using Firebase authentication.
 
 🔗 Live Demo: https://toyville-e37a0.web.app
 

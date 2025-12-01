@@ -50,7 +50,7 @@ const Quiz = () => {
             <button
               key={idx}
               onClick={() => handleOption(option.value)}
-              className="bg-amber-400 hover:bg-amber-500 text-white px-4 py-2 rounded-lg transition"
+              className="bg-gradient-to-r from-amber-400 to-rose-400 hover:from-amber-500 hover:to-rose-500 cursor-pointer text-white px-4 py-2 rounded-lg transition"
             >
               {option.text}
             </button>
